@@ -1,0 +1,63 @@
+.nav-index{
+    background: linear-gradient(60deg,#0ba360,#3cba92);
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .1s;
+}
+
+nav ul li:hover{
+    background-color: #5fcf80;
+}
+
+.bg_gradient_2{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(60deg,#e55d87,#5fc3e4) ;
+}
+@media (max-width: 768px) {
+    .logo-tag {
+        font-size: 30px;
+    }
+}
+
+/* Tabs*/
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.tabs{
+    width: 100%;
+    background: #fef0cb;
+    color: black;
+}
+.tabs h6.section-title{
+    color: black;
+}
+
+.tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: black;
+    font-size: 20px;
+}
